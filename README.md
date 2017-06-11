@@ -1,8 +1,8 @@
-#LL Init Code Release
+# LL Init Code Release
 
 For: The Shattered Gradients Problem (ICML2017)
 
-###Overview of the files
+### Overview of the files
 - initialisations.py: with both the orthogonal kernels and the LL-init generated here, one heavily commented 69-line function `orthogonal` constitutes 100% of the novel code in this repository. It should be easy to port to other ML frameworks and programming languages.
 - neuralNetwork.py: the core functionality is here; this file provides the Representation and NN objects. An NN object takes an initial and a final Representation.
 - layers.py: Layer objects used to build models. An instantiated Layer takes a Representation and returns a new one.
@@ -23,7 +23,7 @@ set foldmethod=marker
 set foldmarker={{{,}}}
 ```
 
-###Dependencies
+### Dependencies
 - python 2.7
 - numpy 1.12.1
 - theano developers version #354097d395789861a3120b4f3d99e7a919683e0c
