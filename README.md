@@ -14,7 +14,7 @@ For: The Shattered Gradients Problem (ICML2017)
 - regularisation.py: regularisation functions. Only provides l1 and l2.
 - demo.py: A demo frontend. Makes use of the provided framework simple by specifying and documenting config in a dedicated section, and providing functions which build and train models as dictated by that config.
 
-A sensible default configuration is given for a 197 layer LL-init'd convnet; merely supply training data to the variables as indicated in the file and the demo should work out of the box.
+A sensible default configuration is given for a 198 layer LL-init'd convnet; merely supply training data to the variables as indicated in the file and the demo should work out of the box.
 
 **The files utilise text folds**; for ease of navigation it's highly recommended you configure your text editor to fold on {{{ and }}}.
 E.g. in a .vimrc
